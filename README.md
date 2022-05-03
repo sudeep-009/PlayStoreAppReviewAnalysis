@@ -92,7 +92,7 @@ UserReview Dataset contains the following features:
                                 (c) Price - Removed the dollar sign and convert it into float datatype.
                                 (d) Size - Removed commas, M, replaced string value into numpy nan, brought consistency by converting 
                                     kb in mb, and finally converted into float datatype.
-                (e) Last Updated: Converted it into pandas datetime object.
+                                (e) Last Updated: Converted it into pandas datetime object.
                 
  ## Exploratory Data Analysis
                 Mainly performed using Matplotlib and Seaborn library and the following graph and plots had been used:
