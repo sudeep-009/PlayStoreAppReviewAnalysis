@@ -97,7 +97,68 @@ UserReview Dataset contains the following features:
                     finally converted into float datatype.
                 (e) Last Updated: Converted it into pandas datetime object.
                 
- ## Exploratory Data Analysis:
+ ## Exploratory Data Analysis
+                Mainly performed using Matplotlib and Seaborn library and the following graph and plots had been used:
+                 a) Bar Plot.
+                 c) Histogram.
+                 b) Stacked Bar Plot.
+                 d) Pie Chart.
+                 f) Pair Plot.
+                 g) Box Plot.
+                 
+                (I) Univariate Analysis:
+                      a) Price: Most of the apps were found free.
+                      b) Rating: Most of the apps were found to have average rating of 4.
+                      c) Most of the apps were lightweighted.
+                      d) Size: Bulky apps mostly belongs to two category:
+                               (i) Family.
+                               (ii) Game.
+                      e) Price: Most of the paid apps were found to be cost less than 3 dollar.
+                      f) Category: Most of the apps were found to be in the category of Family.
+                      g) Sentiment: Most of the apps were found to have positive sentiment.
+                      
+                 (II) Bivariate Analysis:
+                      a) Size Vs Rating: Despite being bulky some apps were found to very popular among users.
+                      b) Price Vs Category: Most of the paid apps were found to be in  category of Family, Game, Medical, 
+                                            Tools, Personalization.
+                      c) Price Vs Category: Found that users could pay high amount for apps developed in the category of Lifestyle or Finance.
+                      d) Price Vs Size: Most of the paid app apps were found to be made lighter by weight so as to garner specific user community.
+                      e) Category Vs Rating: Most of highly rated apps were found to be in the category of Family, Game, Tools.
+                      f) Price Vs Rating: Found that as the price of the apps increases the rating decreases even below the Average Rating.
+                      g) Sentiment Vs Price: Found that users are more harsher towards free apps than free apps.
+                      h) Last Update Vs Years: After 2017 apps were getting frequently updated.
+                      i) Last Update Vs Rating: Found that frequently updated apps have more chances of being rated well.
+                      
+                      
+                      
+  ## Conclusion: 
+               In the project we took lots of time to explore the data and then perform operations on it. Here is what we concluded from our datasets.
+               
+                     i) Most of the apps are free so developers should focus on creating free apps to have a huge customer base.
+                     ii) If developing paid apps then apps size should not be greater than 40mb.
+                     iii) More Apps should be in the category like Events,Beauty,Parenting as they have not been explored much but 
+                          still quite popular with huge installations.
+                     iv) In order to retain the customer base apps should be updated regularly
+                      v) Developers should develop apps such that their content is available for everyone.
+                     vi) Bulky apps should be developed in the category like Game, Family.
+                     v)  If developing paid apps then its price should not be high and size should be less than 20mb.
+                     vi) Apps belonging to Game and Family Category have high negative reviews therefore they should be developed carefully. 
+                     
+               Like this there can be alot of conclusions but we have tried to cover the most important ones.
+               
+               
+  ## Challenges Faced: 
+                    i)  Most of the data were in string type which should be in int or in float type in general. 
+                    ii) There were few special characters like “+”,”$” “M” ”k” which were replaced and removed out 
+                        with special operation on them.
+                    iii)Some nulls which we generated during our data manipulation which were get dropped using simple 
+                        operation and logic.
+                    iv) We have faced lots of duplicates which we dropped which could have really messed up our exploratory part.
+                    v)  It was difficult for us to choose between which tool we should use for data visualization. We preferred the most 
+                        challenging one “seaborn” worked upon it implemented it in our code and even helped each in understanding the codes 
+                        and operations like an ideal team should do.
+                      
+                      
                 
                 
                 
