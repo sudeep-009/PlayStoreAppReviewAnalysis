@@ -15,27 +15,33 @@ In this we have used two dataset:
 
 App dataset contains the following features:
 
-           App: Name of the App.
-           App Category: Category of the app. Like Games, Fitness etc
-           Rating: Rating of the app out of in scale of 1 to 5.
-           Reviews: Number of reviews each app received.
-           Size: The memory size needed to install the application.
-           Installs: No. of install of particular app
-           Type: Whether the app is free or a paid app.
-           Price: The price of the app.
-           Content Rating: This feature tell us about the intended audience for the app like teens, everyone etc .
-           Genres: The sub-category for each app.
-           Last Updated: date of the most recent update for the app.
-           Current Ver: The app's current version.
-           Android Ver: The oldest version of Android OS supported by the app.
+           1) App: Name of the App.
+           2) App Category: Category of the app. Like Games, Fitness etc
+           3) Rating: Rating of the app out of in scale of 1 to 5.
+           4) Reviews: Number of reviews each app received.
+           5) Size: The memory size needed to install the application.
+           6) Installs: No. of install of particular app
+           7) Type: Whether the app is free or a paid app.
+           8) Price: The price of the app.
+           9) Content Rating: This feature tell us about the intended audience for the app like teens, everyone etc .
+           10)Genres: The sub-category for each app.
+           11)Last Updated: date of the most recent update for the app.
+           12)Current Ver: The app's current version.
+           13)Android Ver: The oldest version of Android OS supported by the app.
            
 UserReview Dataset contains the following features:
-           App - It tells us about the name of the application.
-           Translated_Review - It tells us about what the users feedback is about the application.
-           Sentiment - It tells us about a view or opinion of the user w.r.t. the application.
-           Sentiment_Polarity- Sentiment polarity for an element defines the orientation of the expressed sentiment, 
-           i.e., it determines if the text expresses the positive, negative or neutral sentiment of the user about the application.
-           Sentiment_Subjectivity - It refers to the text that contains text which is usually expressed by a human having typical moods, 
-           emotions, and feelings. Mostly it is a public opinion and not a factual information.
+
+           1) App - It tells us about the name of the application.
+           2) Translated_Review - It tells us about what the users feedback is about the application.
+           3) Sentiment - It tells us about a view or opinion of the user w.r.t. the application.
+           4) Sentiment_Polarity- Sentiment polarity for an element defines the orientation of the expressed sentiment, 
+              i.e., it determines if the text expresses the positive, negative or neutral sentiment of the user about the application.
+           5) Sentiment_Subjectivity - It refers to the text that contains text which is usually expressed by a human having typical moods, 
+              emotions, and feelings. Mostly it is a public opinion and not a factual information.
+              
+              
+              
+              
+
 
 
