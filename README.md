@@ -75,16 +75,20 @@ UserReview Dataset contains the following features:
 
 ## Cleaning Data and Feature Engineering:
                  a) Handling Missing Values: 
+                 
                 (i)  Dropped all missing value present in the rating column.
                 (ii) Other features were filled with their mode.
                 
                 b) Duplicate Values:
+                
                 All the duplicate values were dropped.
                 
                 c) Outlier Detection:
+                
                 (i) One significant outlier was found in the rating column with value 19 using boxplot which was removed.
                 
                 d) Transforming Features:
+                
                 Following features have been transformed
                 (a) Review - Transformed from object to int datatype.
                 (b) Installs - Removed the trailing + sign, commas present, and finally transformed into int datatype.
@@ -94,6 +98,7 @@ UserReview Dataset contains the following features:
                 (e) Last Updated: Converted it into pandas datetime object.
                 
  ## Exploratory Data Analysis:
+                
                 
                 
 
