@@ -43,9 +43,7 @@ UserReview Dataset contains the following features:
  Based on the features we came across the following Problem Statement
  
 Q1.Which category have most number of Apps?
-
 Q2.Categories with least number of Apps but Having High Rating and Installations?
-
 Q3.Which Content Rating is preferred most?
 
 Q4.Which Genres have most numbers of apps?
