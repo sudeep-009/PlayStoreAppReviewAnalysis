@@ -46,52 +46,47 @@ UserReview Dataset contains the following features:
                   Q2.Categories with least number of Apps but Having High Rating and Installations?
                   Q3.Which Content Rating is preferred most?
                   Q4.Which Genres have most numbers of apps?
-
-Q5.What is the average Ratings for Apps available?
-
-Q6.What is the effect of price on Ratings?
-
-Q7.Is Rating is proportional to Reviews or Installation?
-
-Q8.What Percentage of Apps are paid ?
-
-Q9.What is the Ratio of free and paid apps in different categories?
-
-Q10. Which are the most expensive Apps and their category?
-
-Q11.Do people prefer to pay to for apps and which category have most paid apps?
-
-Q12.Which categories have bulky apps and how people Rate them?
-
-Q13.Paid Apps:-the Ratings & what are the sentiment of users towards them?
-
-Q15.What are the user sentiments toward different categories?
-
-Q14.Does frequent updates help in improving Ratings and User Base?
+                  Q5.What is the average Ratings for Apps available? 
+                  Q6.What is the effect of price on Ratings?
+                  Q7.Is Rating is proportional to Reviews or Installation?
+                  Q8.What Percentage of Apps are paid ?
+                  Q9.What is the Ratio of free and paid apps in different categories?
+                  Q10. Which are the most expensive Apps and their category?
+                  Q11.Do people prefer to pay to for apps and which category have most paid apps?
+                  Q12.Which categories have bulky apps and how people Rate them?
+                  Q13.Paid Apps:-the Ratings & what are the sentiment of users towards them?
+                  Q15.What are the user sentiments toward different categories?
+                  Q14.Does frequent updates help in improving Ratings and User Base?
 
 ## Understanding Data:
 Aap Dataset
-a) Number of records present in the app dataset were 10841.
-
-b) Number of features present in the dataset were 13.
-
-c) All the attribute of the dataset is of object type except rating.
-
-d) Duplicate Values present in the dataset were  1170.
+                 a) Number of records present in the app dataset were 10841.
+                 b) Number of features present in the dataset were 13.
+                 c) All the attribute of the dataset is of object type except rating.
+                 d) Duplicate Values present in the dataset were  1170.
 
 Review Dataset
-a) Number of records present in the app dataset were 64251.
-
-b) Number of features present in the dataset were 5.
-
-c) All the attribute of the dataset is of object type except sentiment polarity and sentiment objectivity.
-
-d) Duplicate Values present in the dataset were 0.
+                a) Number of records present in the app dataset were 64251.
+                b) Number of features present in the dataset were 5.
+                c) All the attribute of the dataset is of object type except sentiment polarity and sentiment objectivity.
+                d) Duplicate Values present in the dataset were 0.
 
 
 
 ## Cleaning Data and Feature Engineering:
-a) 
+a) Handling Missing Values: 
+                (i)  Dropped all missing value present in the rating column.
+                (ii) Other features were filled with their mode.
+                
+b) Duplicate Values:
+                All the duplicate values were dropped.
+                
+c) Outlier Detection:
+                (i) One significant outlier was found in the rating column with value 19 using boxplot which was removed.
+                
+d) Transforming Features:
+                
+                
 
               
               
