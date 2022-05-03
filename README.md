@@ -59,13 +59,13 @@ UserReview Dataset contains the following features:
                   Q14.Does frequent updates help in improving Ratings and User Base?
 
 ## Understanding Data:
-Aap Dataset
+                 Aap Dataset
                  a) Number of records present in the app dataset were 10841.
                  b) Number of features present in the dataset were 13.
                  c) All the attribute of the dataset is of object type except rating.
                  d) Duplicate Values present in the dataset were  1170.
 
-Review Dataset
+                Review Dataset
                 a) Number of records present in the app dataset were 64251.
                 b) Number of features present in the dataset were 5.
                 c) All the attribute of the dataset is of object type except sentiment polarity and sentiment objectivity.
@@ -74,17 +74,17 @@ Review Dataset
 
 
 ## Cleaning Data and Feature Engineering:
-a) Handling Missing Values: 
+                 a) Handling Missing Values: 
                 (i)  Dropped all missing value present in the rating column.
                 (ii) Other features were filled with their mode.
                 
-b) Duplicate Values:
+                b) Duplicate Values:
                 All the duplicate values were dropped.
                 
-c) Outlier Detection:
+                c) Outlier Detection:
                 (i) One significant outlier was found in the rating column with value 19 using boxplot which was removed.
                 
-d) Transforming Features:
+                d) Transforming Features:
                 Following features have been transformed
                 (a) Review - Transformed from object to int datatype.
                 (b) Installs - Removed the trailing + sign, commas present, and finally transformed into int datatype.
